@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>用户登录</title>
 <script type="text/javascript" src="/js/login.js"></script>
 </head>
 <body>
@@ -32,7 +32,7 @@
 				<td>验证码</td>
 				<td>
 					<input type="text" name="putjcaptcha" id="putjcaptcha"/>
-					<img id="jcaptcha" src="/action/putjcaptcha" width="60" height="22"/>&nbsp;&nbsp;
+					<img id="jcaptcha" src="util/putjcaptchaUtils" width="60" height="22"/>&nbsp;&nbsp;
 					<a href="javascript:getOther();" class="">看不清，换一张</a>				
 				</td>
 			</tr>

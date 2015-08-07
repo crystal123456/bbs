@@ -46,7 +46,7 @@ function login(){
 		//登录跳转
 		$.ajax({   
 	        type:"POST",   
-	        url:"action/loginAction!loginNameValidate.action",  
+	        url:"action/loginAction!userNameValidate.action",  
 	        dataType: "json",
 	        data:{name:trim(name),pwd:trim(pwd),jpt:trim(jpt)},   
 	        beforeSend:function(){
